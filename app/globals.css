@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+  :root {
+  --brand-blue: #2459B9;
+  --header-text: #040509;
+  --white: #ffffff;
+  --black: #000000;
+  --stats-label: #8B8B8B;
+  --stats-para:#545454;
+   --section-bg-soft: #F6F7F1;
+  --card-para: #808080;
+   --card-divider: #D5D5D5;
+  --footer-text: #F2F4F6;
+
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee linear infinite;
+}
+
+
+
+
+
